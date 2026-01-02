@@ -3,20 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Insurance Solutions | Corporate Landing</title>
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="80">
 <!-- Header / Navigation -->
     <header>
-        <h1>BLλCK MESA</h1>
-        <nav class="main-nav">
-            <ul class="main-ul">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#solutions">Solutions</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg sticky-top py-2" data-bs-theme="dark" >
+            <div class="container-fluid px-4">
+
+                <!-- Logo -->
+                <a class="logo navbar-brand" href="#">
+                BL<span class="lambda">λ</span>CK MESA
+                </a>
+
+                <!-- Hamburger -->
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menü -->
+                <div class="nav-menu collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#solutions">Solutions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
         </nav>
     </header>
     <!--Main Bölümü-->
@@ -35,27 +60,28 @@
         <!-- Solutions Bölümü-->
         <section class="solutions" id="solutions">
             <h2>Operational Modules</h2>
-            <article>
-                <h3>Hazard Control</h3>
-                <p>
-                    Advanced systems designed to identify, isolate, and neutralize high-risk scenarios before escalation.
-                </p>
-            </article>
+            <div class="solutions-grid">
+                <article>
+                    <h3>Hazard Control</h3>
+                    <p>
+                        Advanced systems designed to identify, isolate, and neutralize high-risk scenarios before escalation.
+                    </p>
+                </article>
 
-            <article>
-                <h3>Facility Protection</h3>
-                <p>
-                    Protect critical infrastructure and assets through layered security and control protocols.
-                </p>
-            </article>
+                <article>
+                    <h3>Facility Protection</h3>
+                    <p>
+                        Protect critical infrastructure and assets through layered security and control protocols.
+                    </p>
+                </article>
 
-            <article>
-                <h3>Containment Protocols</h3>
-                <p>
-                    Custom-built response frameworks engineered to maintain stability in unpredictable environments.
-                </p>
-            </article>
-
+                <article>
+                    <h3>Containment Protocols</h3>
+                    <p>
+                        Custom-built response frameworks engineered to maintain stability in unpredictable environments.
+                    </p>
+                </article>
+            </div>
         </section>
 
         <!-- About Bölümü-->
@@ -108,6 +134,7 @@
     </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="/JS/main.js"></script>
 </body>
 </html>
