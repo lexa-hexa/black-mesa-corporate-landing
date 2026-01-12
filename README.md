@@ -1,5 +1,7 @@
 🧪 BLλCK MESA – Corporate Landing Page
 
+🔗 Live Demo: https://lexa-hexa.github.io/black-mesa-corporate-landing/
+
 Modern, kurumsal ve karanlık temalı bir corporate landing page çalışması.
 Bu proje; semantik HTML, modern CSS (Grid/Flexbox), responsive tasarım ve sade UI prensipleri kullanılarak sıfırdan geliştirilmiştir.
 
