@@ -48,7 +48,7 @@ Responsive tasarım prensipleri
 ```
 
 📂 Proje Yapısı
-corporate-insurance-landing/
+black-mesa-corporate-landing/
 │
 ├── index.html
 ├── CSS/
@@ -80,8 +80,8 @@ Herhangi bir hazır tema kullanılmamış, tüm yapı ve stiller manuel olarak y
 
 Projeyi yerelde çalıştırmak için:
 
-git clone https://github.com/lexa-hexa/corporate-insurance-landing.git
-cd corporate-insurance-landing
+git clone https://github.com/lexa-hexa/black-mesa-corporate-landing.git
+cd black-mesa-corporate-landing
 
 
 Ardından index.html dosyasını tarayıcıda açman yeterlidir.
